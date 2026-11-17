@@ -1,0 +1,11 @@
+{
+  "name": "ai-live-studio",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace @ai-live-studio/web",
+    "build": "npm run build --workspace @ai-live-studio/web",
+    "lint": "npm run lint --workspace @ai-live-studio/web"
+  }
+}
